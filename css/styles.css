@@ -1,0 +1,82 @@
+
+html {
+  font-size: 4.2mm; /* 210mm / 50 (ajuste a tu preferencia) */
+}
+
+/* Estilo para el contenedor del editor */
+#editor-container {
+  position: relative;
+  width: 50em; /* Ancho en "em" (equivalente a 210mm) */
+  height: 70.8em; /* Altura en "em" (equivalente a 297mm) */
+  top: 3em; /* Ajusta la posición vertical hacia abajo en "em" */
+  left: 4em; /* Ajusta la posición horizontal hacia la izquierda en "em" */
+  border: 2px solid black; /* Borde negro grueso */
+}
+
+
+
+/* Estilo para la barra de herramientas */
+.ql-toolbar.ql-snow {
+  position: absolute;
+  top: 1em; /* Alinea la barra de herramientas con el borde superior del "A4" en "em" */
+  left: 3.5em; /* Alinea la barra de herramientas con el borde izquierdo del "A4" en "em" */
+  width: 41.5em; /* Ancho igual al 50% menos 3.125em para alargar hacia el lado derecho en "em" */
+  max-width: none; /* Elimina el ancho máximo */
+  background-color: #fff; /* Cambia el fondo de la barra de herramientas */
+  border-bottom: 1px solid #ccc; /* Agrega un borde inferior opcional */
+  z-index: 1; /* Asegura que la barra de herramientas esté encima del editor */
+  border: 2px solid black; /* Borde negro grueso */
+}
+
+
+.hidden-line {
+    display: none;
+}
+
+#container {
+    display: none;
+}
+
+
+
+/* Estilo para los botones dentro del editor-container */
+#custom-save-button {
+  position: absolute;
+  right: 51em; /* Ajusta la posición desde el lado derecho en "em" */
+  bottom: 48em; /* Ajusta la posición desde la parte inferior en "em" */
+ 
+ 
+  margin: 10px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  font: bold 12px/25px Arial, sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#save-jpg {
+  position: absolute;
+  right: 51em; /* Ajusta la posición desde el lado derecho en "em" */
+  bottom: 45em; /* Ajusta la posición desde la parte inferior en "em" */
+  margin: 10px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  font: bold 12px/25px Arial, sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#save-pdf {
+  position: absolute;
+  right: 51em; /* Ajusta la posición desde el lado derecho en "em" */
+  bottom: 42em; /* Ajusta la posición desde la parte inferior en "em" */
+  margin: 10px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  font: bold 12px/25px Arial, sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+}
